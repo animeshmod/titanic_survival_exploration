@@ -13287,7 +13287,12 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: 80.02</p>
+<p>I tried few options combining different parameters and reviewing their values through chart. The attempt was to identify which combination is providing maximum (preferably all) number of survived male. That way when I select that option as survived in prediction that adds to the accuracy.</p>
+<p>I tried couple of option using separating male members based on port embarkation as well however they had mixed results.</p>
+<p>Here’s the couple of options I tried with their accuracy data.</p>
+<p>1) sex=male , age &lt; 18 and Class &lt; 2 ——&gt;&gt; Accuracy :79.12
+2) sex=male age &lt; 18 and Class &lt; 3 ——&gt;&gt;  Accuracy : 79.91</p>
+<p>Finally the Age &lt; 15 Pclass 1 and 2 chart had all survived male members and when I tried that in the code gave 80.02% accuracy.</p>
 
 </div>
 </div>
